@@ -1,0 +1,44 @@
+.savings{
+   position: absolute;
+   /* bottom: 400px; */
+top:60px;
+right:0px;
+display: flex;
+   width:300px;
+   background-color: white;
+
+}
+.addschema{
+    cursor: pointer;
+    margin: 10px;
+    border-bottom: 2px solid rgb(105, 188, 105);
+    color: rgb(109, 183, 109);
+
+}
+.schemas{
+    border: 3px solid blue;
+    padding: 10px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+padding: 30px;
+    overflow-y: scroll;
+    
+}
+.WRAP{
+    background-color: white;
+    height: 100vh;
+    }
+
+.navpopup{
+    background-color: teal;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
